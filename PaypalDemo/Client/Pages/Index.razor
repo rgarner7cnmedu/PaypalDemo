@@ -1,0 +1,21 @@
+﻿@page "/"
+@inject IJSRuntime JS
+<h1>Payment Page</h1>
+
+
+
+
+<div id="paypal-button"></div>
+
+@code
+{      //call render_paypal_button js function at startup
+
+    decimal ammount = 10.00M;
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JS.InvokeVoidAsync("render_paypal_button", ammount);
+    }
+}
+
+

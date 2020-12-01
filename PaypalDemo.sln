@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalDemo.Server", "PaypalDemo\Server\PaypalDemo.Server.csproj", "{9DFD98A1-5EAC-4CD7-9E15-7658753684A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalDemo.Client", "PaypalDemo\Client\PaypalDemo.Client.csproj", "{4B15C5AC-91E4-43DA-938C-42BDB6906798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalDemo.Shared", "PaypalDemo\Shared\PaypalDemo.Shared.csproj", "{940F040E-A925-4F4D-8966-EBC6AB38CD34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DFD98A1-5EAC-4CD7-9E15-7658753684A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFD98A1-5EAC-4CD7-9E15-7658753684A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFD98A1-5EAC-4CD7-9E15-7658753684A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFD98A1-5EAC-4CD7-9E15-7658753684A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B15C5AC-91E4-43DA-938C-42BDB6906798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B15C5AC-91E4-43DA-938C-42BDB6906798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B15C5AC-91E4-43DA-938C-42BDB6906798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B15C5AC-91E4-43DA-938C-42BDB6906798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940F040E-A925-4F4D-8966-EBC6AB38CD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940F040E-A925-4F4D-8966-EBC6AB38CD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940F040E-A925-4F4D-8966-EBC6AB38CD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940F040E-A925-4F4D-8966-EBC6AB38CD34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBD8EB74-35A3-48DC-BCF8-B8DEC52BE56B}
+	EndGlobalSection
+EndGlobal
